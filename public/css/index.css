@@ -1,0 +1,77 @@
+@import url(root.css);
+
+.navbar {
+    display: block;
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100%; height: 7vw;
+    background-color: var(--navbar);
+}
+
+.navbar .navitems {
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navitems .logo {
+    color: var(--navbar-title);
+    user-select: none;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-left: 6vw;
+    padding-right: 36vw;
+}
+
+.navbar .navitems .logo p {
+    transition: 0.15s transform ease-in-out;
+}
+
+.navbar .navitems .logo p:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.navbar .navitems .navitem {
+    transition: 0.15s background-color ease-in-out, 0.15s transform ease-in-out;
+    margin-left: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; border-radius: 25px;
+    width: 8vw; height: 4vw;
+    background-color: transparent;
+}
+
+.navbar .navitems .navitem p {
+    color: var(--text-color);
+    user-select: none;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.navbar .navitems .navitem#page {
+    background-color: var(--navbar-alt);
+}
+
+.navbar .navitems .navitem:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navbar .navitems .navitem#page:hover {
+    background-color: var(--navbar-compliment);
+}
+
+iframe.pages {
+    display: none;
+    position: absolute;
+    top: 7vw; left: 0px;
+    width: 100%; height: calc(100% - 7vw);
+    border: none;
+    margin: 0; padding: 0;
+}
+
+iframe.pages[data-shown="true"] {
+    display: block;
+}
