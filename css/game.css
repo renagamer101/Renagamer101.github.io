@@ -85,7 +85,9 @@ transition: 1s;
 z-index: 2;
  }
 
-
+ .container {
+  margin-right: 5vw;
+}
 
  .floatright {
   float: right;
