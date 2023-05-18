@@ -931,5 +931,4 @@
 	}
 
 	return createBareClient;
-
 }));
