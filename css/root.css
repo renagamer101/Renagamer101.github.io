@@ -2,7 +2,7 @@
 
 *[data-theme="default"] {
     --font-family: 'Montserrat', sans-serif;
-    --background-color: #22272E;
+    --background-color: rgb(31, 32, 41);
     --text-color: #FFFFFF;
     --navbar: #181B20;
     --navbar-alt: #50A6FD;
@@ -12,7 +12,7 @@
     --title-alt: #66A3E0;
 }
 
-*[data-theme="moon"] {
+ /* *[data-theme="moon"] {
     --font-family: 'Montserrat', sans-serif;
     --background-color: #3b3c85;
     --text-color: #FFFFFF;
@@ -57,10 +57,10 @@
     --navbar-title: #FFFFFF;
     --navbar-compliment: #e20d2d;
     --title-color: #FFFFFF;
-}
+} */
 
 body {
     font-family: var(--font-family);
     background-color: var(--background-color);
     color: var(--text-color);
-}
+} 
