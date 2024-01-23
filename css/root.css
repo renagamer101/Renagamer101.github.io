@@ -13,15 +13,7 @@
 }
 
 *[data-theme="moon"] {
-    --font-family: 'Montserrat', sans-serif;
-    --background-color: #3b3c85;
-    --text-color: #FFFFFF;
-    --navbar: #2d2563;
-    --navbar-alt: #7260ab;
-    --navbar-title: #FFFFFF;
-    --navbar-compliment: #bfadd3;
-    --title-color: #a792d2;
-    --title-alt: #d5baf2;
+   
 }
 
 *[data-theme="heroic"] {
