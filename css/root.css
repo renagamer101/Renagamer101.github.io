@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 *[data-theme="default"] {
-    --font-family: 'Montserrat', sans-serif;
-    --background-color: #22272E;
+   --font-family: 'Montserrat', sans-serif;
+    --background-color: #3b3c85;
     --text-color: #FFFFFF;
-    --navbar: #181B20;
-    --navbar-alt: #50A6FD;
+    --navbar: #2d2563;
+    --navbar-alt: #7260ab;
     --navbar-title: #FFFFFF;
-    --navbar-compliment: #69a0d6;
-    --title-color: #50A6FD;
-    --title-alt: #66A3E0;
+    --navbar-compliment: #bfadd3;
+    --title-color: #a792d2;
+    --title-alt: #d5baf2;
 }
 
 *[data-theme="moon"] {
@@ -25,38 +25,15 @@
 }
 
 *[data-theme="heroic"] {
-    --font-family: 'Montserrat', sans-serif;
-    --background-color: #090d70;
-    --text-color: #FFFFFF;
-    --navbar: #080a3b;
-    --navbar-alt: #d21312;
-    --navbar-title: #d21312;
-    --navbar-compliment: #f15a59;
-    --title-color: #ed2b2a;
-    --title-alt: #f15a59;
+ 
 }
 
 *[data-theme="sunrise"] {
-    --font-family: 'Montserrat', sans-serif;
-    --background-color: #ff8400 ;
-    --text-color: #FFFFFF;
-    --navbar: #4f200d;
-    --navbar-alt: #ffd93d;
-    --navbar-title: #FFFFFF;
-    --navbar-compliment: #a8933c;
-    --title-color: #FFFFFF;
-    --title-alt: #ffcc00;
+  
 }
 
 *[data-theme="retro"] {
-    --font-family: 'Montserrat', sans-serif;
-    --background-color: #fe6244;
-    --text-color: #FFFFFF;
-    --navbar: #7149c6;
-    --navbar-alt: #fc2947;
-    --navbar-title: #FFFFFF;
-    --navbar-compliment: #e20d2d;
-    --title-color: #FFFFFF;
+
 }
 
 body {
