@@ -14,17 +14,38 @@
         <script src="uv/uv.bundle.js"></script>
         <script src="uv/uv.config.js"></script>
         <script src="js/proxy.js"></script>
-        <script src="js/stars.js"></script>
+        
         
       
         
         <div class="title">
             <p>Project Zypher</p>
+
+            <h1 id="randomTitle"></h1>
        
     
         </div>
       
-
+        <script src="js/stars.js"></script>
+        <script>
+            let possibleTitles = [
+            "Guess who's back, back again?",
+            "Welcome back!",
+            "bye bye renanetwork..",
+            "ok buddy what the filp",
+            "You're back!",
+            "69",
+            "only og's rememeber rena network",
+            "whos here? zyphers here",
+            "2nd best besides selenite",
+            "selenite goz crazy with zypher",
+            "NUH UH"
+        ];
+        
+        let randomTitle = possibleTitles[Math.floor(Math.random() * possibleTitles.length)];
+        
+        document.getElementById("randomTitle").innerHTML = randomTitle;
+          </script>
     </body>
 </html>
 

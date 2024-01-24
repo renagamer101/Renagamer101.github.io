@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
 
 *[data-theme="default"] {
-   --font-family: 'Montserrat', sans-serif;
-    --background-color: #3b3c85;
+   --font-family: 'Moirai One', sans-serif;
+    
     --text-color: #FFFFFF;
-    --navbar: #2d2563;
+    
     --navbar-alt: #7260ab;
-    --navbar-title: #FFFFFF;
+    --navbar-title: #7260ab;;
     --navbar-compliment: #bfadd3;
-    --title-color: #a792d2;
+    --title-color: #7260ab;;
     --title-alt: #d5baf2;
 }
 
@@ -17,4 +17,8 @@ body {
     font-family: var(--font-family);
     background-color: var(--background-color);
     color: var(--text-color);
+    
+    background-image: url("https://th.bing.com/th?id=OIP.NJGsVj9lAxN3GWaulyoVVwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
 }
+
+
