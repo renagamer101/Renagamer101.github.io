@@ -12,21 +12,6 @@
     --title-alt: #d5baf2;
 }
 
-*[data-theme="moon"] {
-   
-}
-
-*[data-theme="heroic"] {
- 
-}
-
-*[data-theme="sunrise"] {
-  
-}
-
-*[data-theme="retro"] {
-
-}
 
 body {
     font-family: var(--font-family);
