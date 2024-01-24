@@ -1,9 +1,5 @@
 const themes = [
     'default',
-    'moon',
-    'heroic',
-    'retro',
-    'sunrise'
 ]
 
 window.loadTheme = (theme = "default", level = document) => {
