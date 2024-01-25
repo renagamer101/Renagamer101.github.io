@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 *[data-theme="default"] {
-   --font-family: 'Moirai One', system-ui;
+   --font-family: 'Bungee', sans-serif;
     
     --text-color: #FFFFFF;
     
