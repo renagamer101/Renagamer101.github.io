@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Zypher</title>
+    <style>
+        /* Popup Styles */
+        #popup {
+            display: flex; /* Show by default */
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+        }
+        #popupContent {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .popupButton {
+            margin-top: 15px;
+            cursor: pointer;
+            background-color: rgb(62, 62, 230);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body style="background-color: #121212; color: #ffffff; font-family: sans-serif; margin: 0; padding: 0;">
+    
+    <!-- Popup Modal -->
+    <div id="popup">
+        <div id="popupContent">
+            <p>Do you want to play the game?</p>
+            <button id="confirmButton" class="popupButton">Yes</button>
+            <button id="cancelButton" class="popupButton">No</button>
+        </div>
+    </div>
+
+    <script>
+        var url = "https://zypher.site";
+        var win;
+
+        document.getElementById('confirmButton').onclick = function() {
+            if (win) {
+                win.focus();
+            } else {
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                var iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.src = url;
+                win.document.body.appendChild(iframe);
+            }
+            document.getElementById('popup').style.display = 'none'; // Hide popup
+        };
+
+        document.getElementById('cancelButton').onclick = function() {
+            document.getElementById('popup').style.display = 'none'; // Hide popup
+        };
+    </script>
+</body>
+</html>
