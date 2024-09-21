@@ -3,10 +3,10 @@
 *[data-theme="default"] {
    --font-family: 'Montserrat', sans-serif;
    --text-color: #FFFFFF;
-   --navbar-alt: #7260ab;
-   --navbar-title: #7260ab;
-   --navbar-compliment: #bfadd3;
-   --title-color: #7260ab;
+   --navbar-alt: #4023a0;
+   --navbar-title: #4023a0;
+   --navbar-compliment: #3e146d;
+   --title-color: #4023a0;
    --title-alt: #d5baf2;
 }
 

@@ -24,7 +24,7 @@
     font-size: 3vw;
     font-weight: 900;
     margin-left: 6vw;
-    padding-right: 36vw;
+    padding-right: 56vw;
 }
 
 .navbar .navitems .logo p {
@@ -38,7 +38,7 @@
 
 .navbar .navitems .navitem {
     transition: 0.15s background-color ease-in-out, 0.15s transform ease-in-out;
-    margin-left: 4vw;
+    margin-left: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
