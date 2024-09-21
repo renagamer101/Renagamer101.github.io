@@ -1,0 +1,80 @@
+@import url(css/root.css);
+
+.widget {
+	font-family: var(--info-font);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	background: rgba(0, 0, 0, 0.25);
+	width: 20vw; height: 7vw;
+	border: .25vw solid var(--widget-bg); border-radius: 1.5vw;
+	filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s transform ease-in-out, 0.2s filter ease-in-out;
+	font-weight: bolder;
+    margin-bottom: 5vw;
+}
+
+.widget:hover {
+	transform: scale(1.01);
+	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.widget a {
+	font-size: fit-content;
+}
+
+.widget.lineup {
+	width: 11.25vw;
+}
+
+.widget.lineup img {
+	margin-right: 0.5vw;
+	width: 2.5vw; height: 2.5vw;
+	user-select: none;
+	pointer-events: none;
+
+	clip-path: circle();
+}
+
+.widget.game img {
+	margin-left: 1vw;
+	width: 2.5vw; height: 2.5vw;
+	user-select: none;
+	pointer-events: none;
+	clip-path: circle();
+}
+
+.widget a:nth-child(1) {
+	margin-right: 1vw;
+}
+
+.widget select {
+	width: 8.5vw;
+	font-weight: bolder;
+}
+
+.widget select, .widget.setting option {
+	color: var(--info-color);
+	background-color: var(--widget-bg);
+}
+
+/* Custom Hover Effect */
+.widget option:checked, .widget.setting option:hover {
+	color: var(--info-color);
+	background-color: var(--widget-bg);
+}
+
+.widget option:focus > .widget.setting option:checked { 
+    color: var(--info-color) !important;
+	background-color: var(--widget-bg);
+}
+
+.widget option {
+	color: var(--info-color);
+	background-color: var(--widget-bg);
+	border: none;
+	font-weight: bold;
+}
