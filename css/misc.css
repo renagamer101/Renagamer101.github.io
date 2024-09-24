@@ -42,7 +42,7 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    background-color: #b625cc;
+    background-color: #0b2830;
     color: #ffffff;
     cursor: pointer;
 }
@@ -52,7 +52,7 @@ a {
 }
 
 button.homepage {
-    background-color: #22c55e;
+    background-color: #0b2830;
     padding: 15px 32px;
     font-size: 16px;
     border-radius: 20px;

@@ -33,7 +33,7 @@ input {
 
 button {
     cursor: pointer;
-    background-color: #22c55e;
+    background-color: #0b2830;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -131,7 +131,7 @@ input[type="text"]:focus {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #22c55e;
+    background-color: #0b2830;
     border: none;
     color: white;
     padding: 15px 20px;
