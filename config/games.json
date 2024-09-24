@@ -5,6 +5,11 @@
     "title": "1v1.space"
   },
   {
+    "link": "projects/basketbros-io/index.html",
+    "imgSrc": "projects/basketbros-io/thumb.jpg",
+    "title": "BasketBros"
+  },
+  {
     "link": "projects/2048/index.html",
     "imgSrc": "projects/2048/thumb.png",
     "title": "2048"
