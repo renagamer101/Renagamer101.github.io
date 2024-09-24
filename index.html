@@ -13,84 +13,90 @@
     <title>Project Zypher</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <style>
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: sans-serif;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-        }
+    body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
 
-        h1 {
-            font-size: 4em;
-            color: rgb(62, 62, 230);
-            margin: 0;
-            transition: color 0.3s ease, transform 0.3s ease;
-        }
+h1 {
+    font-size: 4em;
+    color: rgb(62, 62, 230);
+    margin: 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
 
-        h1:hover {
-          color: rgb(62, 62, 230);
-            transform: scale(3.2); 
-            transition: color 0.3s ease, transform 0.3s ease;
-        }
+h1:hover {
+    color: rgb(62, 62, 230);
+    transform: scale(3.2);
+}
 
-        #subtitle {
-            font-size: 1.5em;
-        }
+#subtitle {
+    font-size: 1.5em;
+}
 
-        p {
-            max-width: 600px;
-            margin: 20px auto;
-        }
+.button-container {
+    margin-top: 20px; /* Space between title/subtitle and buttons */
+    display: flex;
+    justify-content: center; /* Center buttons */
+    gap: 10px; /* Space between buttons */
+}
 
-        button {
-            cursor: pointer;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            font-size: 16px;
-            border-radius: 20px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
+button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
 
-        .play-button {
-            background-color: rgb(62, 62, 230);
-        }
+.play-button {
+    background-color: rgb(62, 62, 230);
+}
 
-        .play-button:hover {
-            background-color: rgb(82, 82, 250);
-        }
+.play-button:hover {
+    background-color: rgb(82, 82, 250);
+}
 
-        .tools-button {
-            background-color: #0b2830;
-        }
+.tools-button {
+    background-color: #0b2830;
+}
 
-        .tools-button:hover {
-            background-color: #0f353f;
-        }
+.tools-button:hover {
+    background-color: #0f353f;
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
     </style>
 </head>
 <body>
     <h1>Project Zypher</h1>
     <span id="subtitle">...</span>
-    <p>
-        Welcome to Project Zypher, a simple game website without the fancy things.<br />
+    <div class="button-container">
         <a href="/projects.html">
             <button class="play-button">Start playing!</button>
-        </a><br />
+        </a>
         <a href="/misc.html">
             <button class="tools-button">Tools and settings</button>
         </a>
-        <br>
         <a href="/exploits.html">
-          <button class="tools-button">Exploits</button>
-      </a>
+            <button class="tools-button">Exploits</button>
+        </a>
+    </div>
+    <p>
+        Welcome to Project Zypher, a simple game website without the fancy things.<br />
     </p>
     <p>
         Credits to 3kh0. However, the project page is styled by me.
