@@ -1,8 +1,8 @@
 [
   {
-    "link": "projects/1v1space/index.html",
-    "imgSrc": "projects/1v1space/splash.png",
-    "title": "1v1.space"
+    "link": "projects/volley-random/index.html",
+    "imgSrc": "projects/volley-random/splash.png",
+    "title": "Volly Random"
   },
   {
     "link": "projects/basketbros-io/index.html",
@@ -55,9 +55,9 @@
     "title": "Ballistic Chicken"
   },
   {
-    "link": "projects/achievementunlocked/index.html",
-    "imgSrc": "projects/achievementunlocked/achievementunlocked.png",
-    "title": "Achievement Unlocked"
+    "link": "projects/vex7/index.html",
+    "imgSrc": "projects/vex7/assets/icon.png",
+    "title": "Vex 7"
   },
   {
     "link": "projects/backrooms/index.html",
