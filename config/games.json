@@ -15,6 +15,31 @@
     "title": "Retro Bowl"
   },
   {
+    "link": "projects/bacon-may-die/index.html",
+    "imgSrc": "projects/bacon-may-die/splash.png",
+    "title": "Bacon May Die"
+  },
+  {
+    "link": "projects/bad-ice-cream/index.html",
+    "imgSrc": "projects/bad-ice-cream/bad-ice-cream.png",
+    "title": "Bad Ice Cream"
+  },
+  {
+    "link": "projects/bad-ice-cream-2/index.html",
+    "imgSrc": "projects/bad-ice-cream-2/bad-ice-cream-2.png",
+    "title": "Bad Ice Cream 2"
+  },
+  {
+    "link": "projects/bad-ice-cream-3/index.html",
+    "imgSrc": "projects/bad-ice-cream-3/bad-ice-cream-3.png",
+    "title": "Bad Ice Cream 3"
+  },
+  {
+    "link": "projects/ballistic-chickens/index.html",
+    "imgSrc": "projects/ballistic-chickens/logo.png",
+    "title": "Ballistic Chicken"
+  },
+  {
     "link": "projects/achievementunlocked/index.html",
     "imgSrc": "projects/achievementunlocked/achievementunlocked.png",
     "title": "Achievement Unlocked"
