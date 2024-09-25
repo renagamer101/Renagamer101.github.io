@@ -42,7 +42,8 @@ function getRandomGreeting() {
     "This is the 5th time this week, and it's only Monday",
     "You bum",
     "Roblox? Cringe!",
-    "Toss the Turtle is pretty fun"
+    "Toss the Turtle is pretty fun",
+    "Crazy how this started when i was 11 and now im a freshman in RHBS"
   ];
   var randomIndex = Math.floor(Math.random() * greetings.length);
   return greetings[randomIndex];
